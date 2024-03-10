@@ -59,13 +59,11 @@ const page = () => {
   const skillRef = useRef();
   const skillRefInView = useInView(skillRef, {
     margin: "-100px",
-    once: true,
   });
   // Experience animation
   const experienceRef = useRef();
   const experienceRefInView = useInView(experienceRef, {
     margin: "-100px",
-    once: true,
   });
   return (
     <div
@@ -147,7 +145,7 @@ const page = () => {
             initial={{ opacity: 0.5, y: 0 }}
             animate={{ opacity: 1, y: "10px" }}
             transition={{ repeat: Infinity, duration: 1, ease: "easeInOut" }}
-            className="w-fit "
+            className="w-fit"
           >
             <svg
               width={50}

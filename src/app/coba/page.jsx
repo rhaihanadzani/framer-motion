@@ -2133,6 +2133,9 @@ const page = () => {
             </g>
           </g>
         </svg>
+        <div>
+          <input type="is-square" />
+        </div>
       </div>
     </div>
   );
